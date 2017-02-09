@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+   <com.example.liuwangshu.mooncustomview.InvalidTextView
+       android:id="@+id/iv_text"
+       android:layout_width="200dp"
+       android:layout_height="100dp"
+       android:background="@android:color/holo_blue_light"
+       android:gravity="center"
+       android:textSize="16sp"
+       android:layout_centerHorizontal="true"
+       />
+
+    <com.example.liuwangshu.mooncustomview.RectView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rv_rect"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@id/iv_text"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        app:rect_color="@android:color/holo_blue_light"
+        />
+</RelativeLayout>

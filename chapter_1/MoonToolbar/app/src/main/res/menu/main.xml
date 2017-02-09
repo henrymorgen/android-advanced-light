@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ToolbarActivity" >
+
+    <item
+        android:id="@+id/ab_search"
+        android:orderInCategory="80"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="90"
+        android:title="分享"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="设置"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="ipdata"
+            type="com.example.liuwangshu.moonmvpsimple.model.IpData" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@{ipdata.country}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@{ipdata.area}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@{ipdata.city}" />
+
+        <Button
+            android:id="@+id/bt_ipinfo"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="获取Ip信息" />
+    </LinearLayout>
+</layout>

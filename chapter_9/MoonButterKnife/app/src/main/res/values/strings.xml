@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoonButterKnife</string>
+    <string-array name="swordsman">
+        <item>张无忌</item>
+        <item>杨过</item>
+        <item>张三丰</item>
+    </string-array>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="com.example.liuwangshu.moondatabinding.model.ObSwordsman" />
+        <import type="com.example.liuwangshu.moondatabinding.model.Swordsman" />
+        <import type="com.example.liuwangshu.moondatabinding.model.ObFSwordsman" />
+        <import type="android.databinding.ObservableList"/>
+        <variable
+            name="swordsman"
+            type="Swordsman" />
+        <variable
+            name="obswordsman"
+            type="ObSwordsman" />
+
+        <variable
+            name="obfswordsman"
+            type="ObFSwordsman" />
+
+        <variable name="list"
+            type="ObservableList&lt;Swordsman>"/>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{obswordsman.name}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{obswordsman.level}" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{obfswordsman.name}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{obfswordsman.level}" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{list.get(0).name}" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{list.get(1).name}" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@={obswordsman.name}"/>
+        <Button
+            android:id="@+id/bt_updata_obswordsman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="使用Observable更新数据" />
+
+        <Button
+        android:id="@+id/bt_updata_obfsswordsman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="使用ObservableFields更新数据" />
+
+        <Button
+        android:id="@+id/bt_updata_obmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="使用Observable容器更新数据" />
+
+        <Button
+            android:id="@+id/bt_updata_bind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="双向绑定重置" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/bt_post"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="发送"
+        android:layout_centerInParent="true" />
+
+    <fragment android:name="com.example.liuwangshu.moonrxjava.bus.RxBusFragment"
+        android:id="@+id/fragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/bt_post"
+        />
+</RelativeLayout>

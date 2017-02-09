@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <Button
+        android:id="@+id/bt_button1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+       />
+    <Button
+        android:id="@+id/bt_button2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        />
+
+
+    <EditText
+        android:id="@+id/et_edittext"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="1"
+        />
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+    <fragment android:name="com.example.liuwangshu.moonbutterknife.MoonFragment"
+        android:id="@+id/fragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>
