@@ -26,7 +26,8 @@ chapter_10   | 第10章 应用架构设计
 第7章介绍事件总线EventBus和otto的使用方法和原理。<br>
 第8章介绍函数响应式编程RxJava的使用方法，包括RxJava的基本使用、操作符、使用场景和源码分析等知识点。<br>
 第9章介绍注解的知识点和依赖注入框架ButterKnife和Dagger2的使用方法以及原理。<br>
-第10章介绍Android应用架构设计，包括MVP框架以及MVP结合RxJava和Dagger2，MVVM框架相关的Data <br>Binding支持库。第11章主要是指引读者进行Android系统源码阅读并带其入门，介绍Android系统框架、源码目录和阅读源码工具，并以分析MediaPlayer框架的源码作为示例。<br>
+第10章介绍Android应用架构设计，包括MVP框架以及MVP结合RxJava和Dagger2，MVVM框架相关的Data Binding支持库。<br>
+第11章主要是指引读者进行Android系统源码阅读并带其入门，介绍Android系统框架、源码目录和阅读源码工具，并以分析MediaPlayer框架的源码作为示例。<br>
 ### **后续内容**
 由于本书篇幅有限，我还有很多想要讲的技术知识无法在本书中展现，这些技术知识我会继续在自己的博客和微信公众号上分享出来。如果感兴趣，你可以继续关注我的博客和微信公众号。<br>
 独立博客：http://liuwangshu.cn<br>
