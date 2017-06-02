@@ -34,10 +34,11 @@ chapter_10   | 第10章 应用架构设计
 CSDN博客：http://blog.csdn.net/itachi85<br>
 QQ群：499174415
 公众号：刘望舒<br>
+
 ---
-<font color=#ff765e size=3>欢迎关注我的微信公众号，第一时间获得博客更新提醒，以及更多**成体系**的Android相关原创技术干货。
-扫一扫下方二维码或者长按识别二维码，即可关注。</font>
-<center>![](http://olwwjaqhc.bkt.clouddn.com/gongzhong.jpg)</center> 
+欢迎关注我的微信公众号，第一时间获得博客更新提醒，以及更多**成体系**的Android相关原创技术干货。
+扫一扫下方二维码或者长按识别二维码，即可关注。
+[](http://olwwjaqhc.bkt.clouddn.com/gongzhong.jpg)
 
 ### **License**
 
