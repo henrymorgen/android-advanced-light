@@ -32,13 +32,13 @@ chapter_10   | 第10章 应用架构设计
 由于本书篇幅有限，我还有很多想要讲的技术知识无法在本书中展现，这些技术知识我会继续在自己的博客和微信公众号上分享出来。如果感兴趣，你可以继续关注我的博客和微信公众号。<br>
 独立博客：http://liuwangshu.cn<br>
 CSDN博客：http://blog.csdn.net/itachi85<br>
-QQ群：499174415
+QQ群：499174415<br>
 公众号：刘望舒<br>
 
 ---
 欢迎关注我的微信公众号，第一时间获得博客更新提醒，以及更多**成体系**的Android相关原创技术干货。
 扫一扫下方二维码或者长按识别二维码，即可关注。
-[](http://olwwjaqhc.bkt.clouddn.com/gongzhong.jpg)
+![](http://olwwjaqhc.bkt.clouddn.com/gongzhong.jpg)
 
 ### **License**
 
