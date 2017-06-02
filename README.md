@@ -33,7 +33,6 @@ chapter_10   | 第10章 应用架构设计
 独立博客：http://liuwangshu.cn<br>
 CSDN博客：http://blog.csdn.net/itachi85<br>
 QQ群：499174415<br>
-公众号：刘望舒<br>
 
 ---
 欢迎关注我的微信公众号，第一时间获得博客更新提醒，以及更多**成体系**的Android相关原创技术干货。
