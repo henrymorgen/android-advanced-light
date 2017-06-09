@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
@@ -33,8 +35,12 @@ public class MainActivity extends AppCompatActivity {
         bt_subscription.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //注册事件
-                EventBus.getDefault().register(MainActivity.this);
+                if(!EventBus.getDefault().isRegistered(MainActivity.this)) {
+                    //注册事件
+                    EventBus.getDefault().register(MainActivity.this);
+                }else{
+                    Toast.makeText(MainActivity.this,"请勿重复注册事件",Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
