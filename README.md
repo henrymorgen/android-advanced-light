@@ -16,7 +16,7 @@ chapter_9  | 第9章 注解与依赖注入框架
 chapter_10   | 第10章 应用架构设计
 
 ### **本书内容**
-本书共分为11章，页数为478页。<br>
+本书共分为11章。<br>
 第1章介绍Android 5.0、Android 6.0、Android 7.0的新特性，包括Android 5.0的RecyclerView、Android 6.0的运行时权限机制和Android 7.0的多窗口模式等知识点。<br>
 第2章介绍Material Design以及Design Support Library常用的控件，并给出实例将Design Support Library中的常用控件结合在一起使用。<br>
 第3章介绍View相关的进阶知识，包括View的滑动、View的事件分发和View的工作流程。最后结合以上知识点来介绍自定义View。<br>
