@@ -1,6 +1,6 @@
 ## **《Android进阶之光》源码**
 
-![1059158635_副本.jpg](http://upload-images.jianshu.io/upload_images/1417629-4db9401970cc76a0.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![1059158635_副本.jpg](http://upload-images.jianshu.io/upload_images/1417629-ffc5287016553464.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### **源码目录介绍**
 
