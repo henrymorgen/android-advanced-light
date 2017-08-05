@@ -13,7 +13,6 @@
         android:id="@+id/action_share"
         android:orderInCategory="90"
         android:title="分享"
-        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/action_settings"
