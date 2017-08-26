@@ -61,6 +61,6 @@ public class RectView extends View {
         int paddingBottom = getPaddingBottom();
         int width = getWidth() - paddingLeft - paddingRight;
         int height = getHeight() - paddingTop - paddingBottom;
-        canvas.drawRect(0 + paddingLeft, 0 + paddingTop, width + paddingRight, height + paddingBottom, mPaint);
+        canvas.drawRect(0 + paddingLeft, 0 + paddingTop, width + paddingLeft, height + paddingTop, mPaint);
     }
 }
