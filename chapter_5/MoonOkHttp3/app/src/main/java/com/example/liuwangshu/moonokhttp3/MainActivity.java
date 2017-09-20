@@ -129,8 +129,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
             @Override
-            public void onResponse(Response response) throws IOException{
-                String str = response.body().string();
+            public void onResponse(String str) throws IOException{
                 Log.d(TAG, str);
                 Toast.makeText(getApplicationContext(), "请求成功", Toast.LENGTH_SHORT).show();
             }

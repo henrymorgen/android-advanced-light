@@ -13,5 +13,5 @@ public abstract class ResultCallback
 {
     public abstract void onError(Request request, Exception e);
 
-    public abstract void onResponse(Response response) throws IOException;
+    public abstract void onResponse(String str) throws IOException;
 }

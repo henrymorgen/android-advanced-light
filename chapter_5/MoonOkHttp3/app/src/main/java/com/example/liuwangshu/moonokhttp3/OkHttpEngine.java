@@ -12,7 +12,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 public class OkHttpEngine {
-    private static OkHttpEngine mInstance;
+    private static volatile  OkHttpEngine mInstance;
     private OkHttpClient mOkHttpClient;
     private Handler mHandler;
 
@@ -64,16 +64,16 @@ public class OkHttpEngine {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-                sendSuccessCallback(response, callback);
+                sendSuccessCallback(response.body().string(), callback);
             }
 
-            private void sendSuccessCallback(final Response object, final ResultCallback callback) {
+            private void sendSuccessCallback(final String str, final ResultCallback callback) {
                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
                         if (callback != null) {
                             try {
-                                callback.onResponse(object);
+                                callback.onResponse(str);
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
