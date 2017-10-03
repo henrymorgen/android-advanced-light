@@ -9,13 +9,16 @@
 ------------|--------------------------
  chapter_1   | 第1章 Android新特性
 chapter_2   | 第2章 Material Design
-chapter_3   | 第3章 View体系与自定义View
+chapter_3   | 第3章 View体系与自定义View
+无源码  | 第4章 多线程编程
 chapter_5  | 第5章 网络编程与网络框架
-chapter_7   | 第7章 事件总线
+无源码  | 第6章 设计模式
+chapter_7   | 第7章 事件总线
 chapter_8   | 第8章 函数响应式编程
 chapter_9  | 第9章 注解与依赖注入框架
-chapter_10   | 第10章 应用架构设计
-
+chapter_10   | 第10章 应用架构设计
+无源码  | 第11章 系统架构与MediaPlayer框架
+ 
 ### **本书内容**
 本书共分为11章。<br>
 第1章介绍Android 5.0、Android 6.0、Android 7.0的新特性，包括Android 5.0的RecyclerView、Android 6.0的运行时权限机制和Android 7.0的多窗口模式等知识点。<br>
