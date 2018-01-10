@@ -58,8 +58,6 @@ class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder> impleme
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position)
     {
-
-        Log.d("liuwangshu","onBindViewHolder");
         holder.itemView.setTag(position);
         holder.tv.setText(mList.get(position));
     }
