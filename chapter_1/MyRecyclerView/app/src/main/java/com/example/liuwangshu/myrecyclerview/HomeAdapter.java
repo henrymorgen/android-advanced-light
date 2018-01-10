@@ -46,7 +46,6 @@ class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder> impleme
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
     {
-        Log.d("liuwangshu","onCreateViewHolder");
         View view=LayoutInflater.from(
                 mContext).inflate(R.layout.item_recycler, parent,
                 false);
