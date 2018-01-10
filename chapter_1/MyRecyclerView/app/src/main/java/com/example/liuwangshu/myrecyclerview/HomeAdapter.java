@@ -2,6 +2,7 @@ package com.example.liuwangshu.myrecyclerview;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +14,7 @@ import android.view.ViewGroup.LayoutParams;
 /**
  * Created by Moon on 2015/11/21.
  */
-class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>
+class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder> implements View.OnClickListener,View.OnLongClickListener
 {
     private List<String> mList;
     private Context mContext;;
@@ -22,6 +23,10 @@ class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>
         this.mContext=mContext;
         this.mList=mList;
     }
+
+
+
+
     public interface OnItemClickListener
     {
         void onItemClick(View view, int position);
@@ -41,9 +46,13 @@ class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
     {
-        MyViewHolder holder = new MyViewHolder(LayoutInflater.from(
+        Log.d("liuwangshu","onCreateViewHolder");
+        View view=LayoutInflater.from(
                 mContext).inflate(R.layout.item_recycler, parent,
-                false));
+                false);
+        MyViewHolder holder = new MyViewHolder(view);
+        view.setOnClickListener(this);
+        view.setOnLongClickListener(this);
         return holder;
     }
 
@@ -51,29 +60,23 @@ class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.MyViewHolder>
     public void onBindViewHolder(final MyViewHolder holder, final int position)
     {
 
+        Log.d("liuwangshu","onBindViewHolder");
+        holder.itemView.setTag(position);
         holder.tv.setText(mList.get(position));
-        if (mOnItemClickListener != null)
-        {
-            holder.tv.setOnClickListener(new View.OnClickListener()
-            {
-                @Override
-                public void onClick(View v)
-                {
-                    int pos = holder.getLayoutPosition();
-                    mOnItemClickListener.onItemClick(holder.tv,pos);
-                }
-            });
-            holder.tv.setOnLongClickListener(new View.OnLongClickListener() {
-                @Override
-                public boolean onLongClick(View view) {
-                    int pos = holder.getLayoutPosition();
-                    mOnItemClickListener.onItemLongClick(holder.tv,pos);
-                    return false;
-                }
-            });
+    }
+    @Override
+    public void onClick(View view) {
+        if (mOnItemClickListener != null) {
+            mOnItemClickListener.onItemClick(view,(int)view.getTag());
         }
     }
-
+    @Override
+    public boolean onLongClick(View view) {
+        if (mOnItemClickListener != null) {
+            mOnItemClickListener.onItemLongClick(view,(int)view.getTag());
+        }
+        return true;
+    }
     @Override
     public int getItemCount()
     {
