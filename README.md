@@ -32,14 +32,14 @@ chapter_10   | 第10章 应用架构设计
 第10章介绍Android应用架构设计，包括MVP框架以及MVP结合RxJava和Dagger2，MVVM框架相关的Data Binding支持库。<br>
 第11章主要是指引读者进行Android系统源码阅读并带其入门，介绍Android系统框架、源码目录和阅读源码工具，并以分析MediaPlayer框架的源码作为示例。<br>
 ### **后续内容**
-由于本书篇幅有限，我还有很多想要讲的技术知识无法在本书中展现，这些技术知识我会继续在自己的博客和微信公众号上分享出来。如果感兴趣，你可以继续关注我的博客和微信公众号，或者等待将在2018年8月出版的《Android进阶之光》的续作。<br>
+由于本书篇幅有限，我还有很多想要讲的技术知识无法在本书中展现，这些技术知识我会继续在自己的博客和微信公众号上分享出来。如果感兴趣，你可以继续关注我的博客和微信公众号，或者等待将在2018年9月出版的《Android进阶之光》的续作。<br>
 独立博客：http://liuwangshu.cn<br>
 CSDN博客：http://blog.csdn.net/itachi85<br>
 QQ群：499174415<br>
  
-更专业的Android技术公号，并且不止于技术。  <br>
+这里不仅分享Android和Java相关技术，还有行业动态、技术资讯、面经和个人感悟。每个月会有送书福利给大家。 <br>
 ![](http://olwwjaqhc.bkt.clouddn.com/gongzhong.jpg)
-
+![](https://upload-images.jianshu.io/upload_images/1417629-be3e83818814b47c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### **License**
 
  © 2017 [刘望舒][itachi85]. This code is distributed under the MIT license.
