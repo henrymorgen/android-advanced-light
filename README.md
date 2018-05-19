@@ -38,8 +38,9 @@ CSDN博客：http://blog.csdn.net/itachi85<br>
 QQ群：499174415<br>
  
 这里不仅分享Android和Java相关技术，还有行业动态、技术资讯、面经和个人感悟。每个月会有送书福利给大家。 <br>
-![](http://olwwjaqhc.bkt.clouddn.com/gongzhong.jpg)
+
 ![](https://upload-images.jianshu.io/upload_images/1417629-be3e83818814b47c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ### **License**
 
  © 2017 [刘望舒][itachi85]. This code is distributed under the MIT license.
