@@ -34,7 +34,7 @@ chapter_10   | 第10章 应用架构设计
 ### **后续内容**
 由于本书篇幅有限，我还有很多想要讲的技术知识无法在本书中展现，这些技术知识我会继续在自己的博客和微信公众号上分享出来。如果感兴趣，你可以继续关注我的博客和微信公众号，或者购买Android进阶三部曲第二部《Android进阶解密》。<br>
 独立博客：http://liuwangshu.cn<br>
-CSDN博客：http://blog.csdn.net/itachi85<br>
+CSDN博客：https://liuwangshu.blog.csdn.net/<br>
 QQ群：499174415<br>
  
 分享Android、Java和大前端相关技术。 <br>
